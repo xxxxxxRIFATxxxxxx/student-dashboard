@@ -1,0 +1,69 @@
+/* Common CSS */
+main {
+    height: 100vh;
+}
+
+.silver-text {
+    color: rgb(58, 58, 58)
+}
+
+.silver-bg {
+    background-color: rgb(230, 230, 230);
+}
+
+/* Friend List CSS */
+.friend-list {
+    height: 100vh;
+}
+
+.friends-names {
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.friend-list .profile-pic {
+    width: 40px;
+}
+
+.friend-list .conversations-btn {
+    border: none;
+}
+
+.friend-list .search-icon {
+    font-size: 14px;
+    color: rgb(163, 162, 162);
+    cursor: pointer;
+}
+
+/* Search Box CSS */
+.search-box {
+    display: none;
+}
+
+/* Chat Box CSS */
+.chat-box {
+    height: 100vh;
+}
+
+.message-icon {
+    font-size: 100px;
+    color: rgb(58, 58, 58)
+}
+
+.chat-box .card {
+    border: none;
+}
+
+.chat-box .profile-pic-chatbox {
+    width: 60px;
+}
+
+/* Writing Box CSS */
+.writing-box {
+    width: 88%;
+    height: 50%;
+}
+
+.text-format-icon {
+    font-size: 12px;
+}
